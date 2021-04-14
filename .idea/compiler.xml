@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ChatClientAppFx" />
-        <module name="ChatClientApp" />
+        <module name="SocketObserverAppFx" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ChatClientApp" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
